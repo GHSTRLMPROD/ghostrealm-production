@@ -1,0 +1,81 @@
+/* INDEX HTML */
+body {
+  font-family: 'Space Mono', monospace;
+  margin: 0;
+  padding: 0;
+  /*background-image: url('websitebackground.png');*/
+  color:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+ ul:hover:not(.active) {
+  background-color: blue;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  color: black;
+}
+
+/*footer {
+  display: block;
+  background-color: #000000;
+  align-self: bottom;
+
+} */
+
+footer
+{
+  float: right;
+  }
+
+/*  position : absolute;
+  bottom : 0;
+  height : 90px;
+  margin-top : 1px; */
+
+/*footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+
+  } */
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  align-items: stretch;
+  }
+.grid img {
+  max-height: 100%;
+  max-width: 100%;
+}

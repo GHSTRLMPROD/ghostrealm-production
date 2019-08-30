@@ -1,0 +1,120 @@
+<html lang="en">
+  <head>
+    <title>GHST PROD</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='icon' href='favicon.ico' type='favion.ico'/ >
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+  </head>
+
+  <style>
+   body {
+     background-color:black;
+     color:white;
+   }
+
+   /* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 32%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 32%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: black;
+  padding: 50px;
+  margin-top: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+  </style>
+
+  <body>
+    <ul>
+      <li><a class="active" href="#home">📢</a></li>
+      <li><a href="index.html">🏠</a></li>
+      <li><a href="contact.html">📇</a></li>
+      <li><a href="games.html">🎮</a></li>
+    </ul>
+
+    <div class="header">
+  <h2>Blog</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>DEVELOPMENT ON DREADSCAPE</h2>
+      <h5>Game Development begins, Aug 25, 2019</h5>
+      <div class="fakeimg" style="height:200px;"><img src="img/announcement1.png" height="207" width="407"></div>
+      <p>The website is finally up and running! This website is developed by レイスル, however ジャック has uploaded hardcore musics. We will get up and running, after we upload this to Github.</p>
+    </div>
+  <!--  <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+    </div> -->
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About US</h2>
+      <div class="fakeimg" style="height:100px;">ERROR IMAGE NOT FIND</div>
+      <p>We're amatuers. lol. </p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">N/A</div><br>
+      <div class="fakeimg">N/A</div><br>
+      <div class="fakeimg">DREADSCAPE DEVELOPMENT BEGINS</div>
+    </div>
+    <br>
+    <br>
+  </div>
+</div>
+
+
+
+
+  </body>
+</html>
