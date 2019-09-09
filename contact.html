@@ -8,83 +8,95 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
   </head>
-
   <style>
+  body {
+    background-color:black;
+  }
+ h1 {
+   color:white;
+   font-size: 48px;
+   text-align: center;
+ }
+ p {
+   text-align:center;
+   color:white;
+  font-size: 16px;
+ }
+ h2 {
+   display:block;
+   text-align:center;
+   color:white;
+   font-size:24px;
+ }
 
-
-.content {
-  position:relative;
-  bottom: 0;
-  /*background: rgba(0.5, 0.5, 0.5, 0.5);
-  /*color: #f1f1f1; */
-  width: 100%;
-  padding: 0px;
+ div.gallery {
+  margin: 0px;
+  border: 0px solid #ccc;
+  float: center;
+  width: 200px;
 }
-    body {
-      position: fixed;
-      overflow-y: scroll;
-      overflow-y:hidden;
-      width: 100%;
-      background-color:black;
-    }
 
-   h1 {
-     color:white;
-     font-size: 48px;
-     text-align: center;
-   }
+div.gallery:hover {
+  border: 1px solid #777;
+}
 
-   p {
-     text-align:center;
-     color:white;
-    font-size: 16px;
-   }
+div.gallery img {
+  width: 25%;
+  height:25%;
+}
+ </style>
+ <body>
+   <h1> Ghostrealm Production </h1>
+   <p>Ghostrealm Production is a game development company based in Greenville, SC and is founded by two people, Raisul and Jack.<br>They had the idea back in high school to develop a 2D game, which they're currently working on.<br> Their latest game Dreadscape is currently a work in progress.</p>
+   <ul>
+     <li><a class="active" href="#home">🏠</a></li>
+     <li><a href="games.html">🎮</a></li>
+     <li><a href="contact.html">📇</a></li>
+     <li><a href="announcement.html">📢</a></li>
+   </ul>
+   <div class="gallery">
+     <a href="https://www.reddit.com/user/ghostrealmproduction">
+       <img src="img/reddit.png"  alt="Reddit" height="25" width="25" >
+     </a>
+   </div>
 
-   h2 {
-     display:block;
-     text-align:center;
-     color:white;
-     font-size:24px;
-   }
+   <div class="gallery">
+     <a href="https://ghstrlmprod.tumblr.com/">
+       <img src="img/tumblr.png"  alt="Tumblr" height="25" width="25" >
+     </a>
+   </div>
 
-   .center {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-   }
+   <div class="gallery">
+     <a href="https://www.youtube.com/channel/UChedJA8x90Rog_yasdnvPsw">
+       <img src="img/youtube.png"  alt="Youtube" height="25" width="25" >
+     </a>
+   </div>
 
-  </style>
+   <div class="gallery">
+     <a href="https://github.com/GHSTRLMPROD">
+       <img src="img/github.png"  alt="Github" height="25" width="25" >
+     </a>
+   </div>
 
-  <body>
-<div class="content">
-<h1> Ghostrealm Production </h1>
-<p>Ghostrealm Production is a game development company based in Greenville, SC and is founded by two people, Raisul and Jack.<br>They had the idea back in high school to develop a 2D game, which they're currently working on.<br> Their latest game Dreadscape is currently a work in progress.</p>
-
-<a href="https://www.reddit.com/user/ghostrealmproduction"><img src="img/reddit.png" class="center" alt="Reddit" height="25" width="25" ></a> <br>
-<a href="https://ghstrlmprod.tumblr.com/"><img src="img/tumblr.png" class="center" alt="Tumblr" height="25" width="25" ></a> <br>
-<a href="https://www.youtube.com/channel/UChedJA8x90Rog_yasdnvPsw"><img src="img/youtube.png" class="center" alt="Youtube" height="25" width="25" ></a> <br>
-<a href="https://github.com/GHSTRLMPROD"><img src="img/github.png" class="center" alt="Github" height="25" width="25" ></a> <br>
-<a href="https://discord.gg/PuFsbgQ"><img src="img/discord.png" class="center" alt="Discord" height="25" width="25"></a> <br>
-<a href="https://www.instagram.com/ghstrlmprod/"><img src="img/instagram.png" class="center" alt="Instagram" height="25" width="25"></a><br>
-<a href="https://twitter.com/ghstrlmprod"><img src="img/twitter.png" class="center" alt= "Twitter" height="25" width="25"></a><br>
-
-
-<!--    <h2>Reddit</h2>
-    <h2>Tumblr</h2>
-    <h2>Youtube</h2>
-    <h2>Discord</h2>
-    <h2>Github</h2>
-    <h2>Linkedln</h2> --><br>
-    <br>
-
+   <div class="gallery">
+     <a href="https://discord.gg/PuFsbgQ">
+       <img src="img/discord.png" alt="Discord" height="25" width="25">
+    </a>
 </div>
 
-    <ul>
-      <li><a class="active" href="#home">📇</a></li>
-      <li><a href="index.html">🏠</a></li>
-      <li><a href="games.html">🎮</a></li>
-      <li><a href="announcement.html">📢</a></li>
-    </ul>
+<div class="gallery">
+  <a href="https://www.instagram.com/ghstrlmprod/">
+    <img src="img/instagram.png" alt="Instagram" height="25" width="25">
+  </a>
+</div>
 
-  </body>
+<div class="gallery">
+  <a href="https://twitter.com/ghstrlmprod">
+    <img src="img/twitter.png"  alt= "Twitter" height="25" width="25">
+  </a>
+</div>
+
+
+
+</body>
 </html>
